@@ -1,43 +1,49 @@
 # Ariv Themes
 
-A free, modern dark theme alternative to Vira/Material Themes.
+Ariv Themes is a clean, modern dark theme extension for VS Code.
 
-## Recommended Settings
+## Available Themes
 
-To get the best experience from the Ariv themes, we highly recommend enabling bracket pair colorization, vertical guides, and the **Fira Code** font for beautiful ligatures.
+- Ariv Dark
+- Ariv Ocean
 
-Here is how to set up your environment for the best experience:
+## How to Use
 
-1. **Install Fira Code**: Download and install the [Fira Code font](https://github.com/tonsky/FiraCode) on your system if you haven't already.
-2. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`).
-3. Search for and select **Preferences: Open User Settings (JSON)**.
-4. Add the following lines to your configuration:
+1. Install **Ariv Themes** from the VS Code Marketplace.
+2. Open Command Palette.
+3. Run **Preferences: Color Theme**.
+4. Select **Ariv Dark** or **Ariv Ocean**.
 
-```json
-  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-  "editor.fontLigatures": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active"
-```
+Once you switch to an Ariv theme, the extension automatically applies a tuned editor experience.
 
-*(Setting `editor.guides.bracketPairs` to `"active"` will highlight the specific block your cursor is currently inside. Setting it to `true` will show the colored lines for all nested blocks at all times).*
+## What Gets Applied Automatically
 
-### Theme-Specific Settings (Optional)
-If you only want these settings applied when using the Ariv themes, you can use a theme-specific configuration block in your `settings.json`:
+When an Ariv theme is active, the extension applies:
 
-```json
-  "[Ariv Dark]": {
-    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active"
-  },
-  "[Ariv Ocean]": {
-    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active"
-  }
-```
+- `editor.fontFamily` → Fira Code fallback stack
+- `editor.fontLigatures` → enabled
+- `editor.bracketPairColorization.enabled` → enabled
+- `workbench.iconTheme` → material-icon-theme
+- `workbench.productIconTheme` → feather-product-icons
 
-## Enjoy!
+> For best results, install [Fira Code](https://github.com/tonsky/FiraCode) on your system.
+
+## Settings Backup & Restore
+
+Ariv Themes takes a backup of your existing global settings **before** applying Ariv settings.
+
+- If you switch away from Ariv Dark/Ocean, your previous settings are restored automatically.
+- Backup is then cleared, so the next time you use Ariv Themes a fresh backup is created.
+
+## How to Remove Ariv Theme Behavior
+
+If you no longer want automatic Ariv configuration:
+
+1. Switch to any non-Ariv theme (this restores your previous settings).
+2. Disable or uninstall **Ariv Themes** from Extensions.
+
+## Feedback
+
+We are new and actively improving.
+
+If you have ideas, suggestions, or issues, please share feedback on the project repository. Your feedback helps us improve Ariv Themes faster.
