@@ -1,0 +1,21 @@
+{
+  "name": "ariv-themes",
+  "displayName": "ariv-themes",
+  "description": "A free, modern dark theme alternative to Vira/Material Themes.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ariv Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ariv Dark-color-theme.json"
+      }
+    ]
+  }
+}
