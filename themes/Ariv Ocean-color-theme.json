@@ -3,6 +3,12 @@
 	"colors": {
 		"editor.background": "#0f111a",
 		"editor.foreground": "#eeffff",
+		"sideBar.background": "#0f111a",
+		"activityBar.background": "#0f111a",
+		"terminal.background": "#0f111a",
+		"panel.background": "#0f111a",
+		"titleBar.activeBackground": "#0f111a",
+		"titleBar.inactiveBackground": "#0f111a",
 		"activityBarBadge.background": "#80cbc4",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"editorBracketHighlight.foreground1": "#FFCB6B",

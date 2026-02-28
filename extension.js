@@ -8,7 +8,9 @@ const ARIV_SETTINGS = {
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active"
+    "editor.guides.bracketPairs": "active",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "feather-product-icons"
 };
 
 /**
@@ -47,7 +49,9 @@ async function handleThemeChange(theme, context) {
                 "editor.fontFamily": config.inspect("editor.fontFamily")?.globalValue,
                 "editor.fontLigatures": config.inspect("editor.fontLigatures")?.globalValue,
                 "editor.bracketPairColorization.enabled": config.inspect("editor.bracketPairColorization.enabled")?.globalValue,
-                "editor.guides.bracketPairs": config.inspect("editor.guides.bracketPairs")?.globalValue
+                "editor.guides.bracketPairs": config.inspect("editor.guides.bracketPairs")?.globalValue,
+                "workbench.iconTheme": config.inspect("workbench.iconTheme")?.globalValue,
+                "workbench.productIconTheme": config.inspect("workbench.productIconTheme")?.globalValue
             };
             
             // Save the backup
