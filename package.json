@@ -3,6 +3,7 @@
   "displayName": "ariv-themes",
   "description": "A free, modern dark theme alternative to Vira/Material Themes.",
   "version": "0.0.1",
+  "icon": "icon.png",
   "publisher": "shubhamsharma",
   "engines": {
     "vscode": "^1.108.0"
