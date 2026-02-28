@@ -4,15 +4,18 @@ A free, modern dark theme alternative to Vira/Material Themes.
 
 ## Recommended Settings
 
-To get the best experience from the Ariv themes, we highly recommend enabling bracket pair colorization and guides. By default, VS Code has bracket pair colorization enabled, but the vertical guides (the connecting lines) are often turned off or set to only show horizontal lines.
+To get the best experience from the Ariv themes, we highly recommend enabling bracket pair colorization, vertical guides, and the **Fira Code** font for beautiful ligatures.
 
-Here is how to activate them so you can see your new Ariv theme colors in action:
+Here is how to set up your environment for the best experience:
 
-1. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`).
-2. Search for and select **Preferences: Open User Settings (JSON)**.
-3. Add the following lines to your configuration:
+1. **Install Fira Code**: Download and install the [Fira Code font](https://github.com/tonsky/FiraCode) on your system if you haven't already.
+2. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`).
+3. Search for and select **Preferences: Open User Settings (JSON)**.
+4. Add the following lines to your configuration:
 
 ```json
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active"
 ```
@@ -24,10 +27,14 @@ If you only want these settings applied when using the Ariv themes, you can use 
 
 ```json
   "[Ariv Dark]": {
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active"
   },
   "[Ariv Ocean]": {
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active"
   }
