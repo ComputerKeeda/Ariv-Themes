@@ -2,6 +2,8 @@
 
 Ariv Themes is a clean, modern dark theme extension for VS Code.
 
+A free, modern dark theme alternative to Vira/Material Themes.
+
 ## Available Themes
 
 - Ariv Dark
@@ -47,3 +49,13 @@ If you no longer want automatic Ariv configuration:
 We are new and actively improving.
 
 If you have ideas, suggestions, or issues, please share feedback on the project repository. Your feedback helps us improve Ariv Themes faster.
+
+## Community & Support
+
+Ariv Themes is free and made by developer, for developers.
+
+If you want to be part of the Ariv Themes community, please support us on GitHub:
+
+https://github.com/ComputerKeeda/Ariv-Themes
+
+For now, this is our starting point, but we plan to ship new updates every week (Because currently I am available only on weekends 🥺).
