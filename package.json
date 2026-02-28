@@ -20,6 +20,11 @@
         "label": "Ariv Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Ariv Dark-color-theme.json"
+      },
+      {
+        "label": "Ariv Ocean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ariv Ocean-color-theme.json"
       }
     ]
   }
